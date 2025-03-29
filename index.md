@@ -1,4 +1,171 @@
----
-title: Welcome to my blog
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Sourcing Agent</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: linear-gradient(90deg, #004d00, #007f00);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            position: relative;
+            box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+        }
+        .cta-button {
+            background: #ffcc00;
+            padding: 15px 30px;
+            border: none;
+            color: #333;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #e6b800;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+            margin: 20px 0;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #004d00;
+        }
+        footer {
+            background: #004d00;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services li {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        .testimonials blockquote {
+            font-style: italic;
+            color: #555;
+            border-left: 5px solid #004d00;
+            padding-left: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 50px 10px;
+            }
+            .cta-button {
+                width: 100%;
+                padding: 15px;
+                font-size: 16px;
+            }
+            section {
+                padding: 30px 10px;
+            }
+        }
+        @media (max-width: 480px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            .hero h1 {
+                font-size: 24px;
+            }
+            .hero p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Sourcing Agent</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Your Trusted Partner in Sourcing</h1>
+    <p>Connecting You with Quality Manufacturers in Vietnam</p>
+    <a href="#contact" class="cta-button">Get a Free Consultation</a>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>We are dedicated to connecting businesses with reliable manufacturers in Vietnam, ensuring quality and efficiency in every step of the sourcing process.</p>
+</section>
+
+<section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+        <li>🔍 <strong>Product Sourcing:</strong> Finding the best manufacturers tailored to your needs.</li>
+        <li>🏭 <strong>Factory Tours:</strong> Organizing visits to ensure transparency and trust.</li>
+        <li>🔧 <strong>Quality Control:</strong> Ensuring that products meet your standards.</li>
+        <li>🚚 <strong>Logistics Management:</strong> Handling all shipping and delivery needs.</li>
+    </ul>
+</section>
+
+<section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <blockquote>
+        "Working with this sourcing agent has transformed our supply chain. Highly recommend!" - John Doe, CEO of Example Corp.
+    </blockquote>
+</section>
+
+<footer>
+    <h2>Contact Us</h2>
+    <p>Email: info@yoursourcingagent.com | Phone: (123) 456-7890</p>
+    <p>&copy; 2025 Your Sourcing Agent. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
 
